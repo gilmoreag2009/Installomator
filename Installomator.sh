@@ -4736,7 +4736,13 @@ jitsimeet)
     appNewVersion=$(versionFromGit Jitsi jitsi-meet-electron)
     expectedTeamID="FC967L3QRG"
     ;;
-jre8)
+joplin)
+    name="Joplin"
+    type="dmg"
+    downloadURL="$(downloadURLFromGit laurent22 joplin)"
+    appNewVersion="$(versionFromGit laurent22 joplin)"
+    expectedTeamID="A9BXAFS6CT"
+    ;;jre8)
     name="Java Runtime Environment 8"
     type="pkgInDmg"
     versionKey="CFBundleVersion"
