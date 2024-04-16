@@ -337,7 +337,7 @@ if [[ $(/usr/bin/arch) == "arm64" ]]; then
     fi
 fi
 VERSION="10.6beta"
-VERSIONDATE="2024-04-14"
+VERSIONDATE="2024-04-16"
 
 # MARK: Functions
 
@@ -7632,6 +7632,13 @@ spotify)
     # appNewVersion=$(curl -fs https://www.spotify.com/us/opensource/ | cat | grep -o "<td>.*.</td>" | head -1 | cut -d ">" -f2 | cut -d "<" -f1) # does not result in the same version as downloaded
     expectedTeamID="2FNC3A47ZF"
     ;;
+sqlitebrowser)
+    name="DB Browser for SQLite"
+    type="dmg"
+    downloadURL=$(downloadURLFromGit sqlitebrowser sqlitebrowser)
+    appNewVersion=$(versionFromGit sqlitebrowser sqlitebrowser)
+    expectedTeamID="C34AV33YLK"
+;;
 sqlpropostgres)
     name="SQLPro for Postgres"
     type="zip"

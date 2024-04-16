@@ -677,6 +677,7 @@ splashtopbusiness
 splashtopsos
 splashtopstreamer
 spotify
+sqlitebrowser
 sqlpropostgres
 sqlprostudio
 starface72x
