@@ -3447,7 +3447,13 @@ etssecurebrowser)
     versionKey="CFBundleShortVersionString"
     expectedTeamID="WGC236CZU9"
     ;;
-evercast)
+eul)
+    name="eul"
+    type="zip"
+    downloadURL="$(downloadURLFromGit gao-sun eul)"
+    appNewVersion="$(versionFromGit gao-sun eul)"
+    expectedTeamID="M8G2RFZVFV"
+    ;;evercast)
     name="Evercast"
     type="pkg"
     downloadURL="https://s3.amazonaws.com/files.evercast.us/Evercast.pkg"

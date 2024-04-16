@@ -219,7 +219,7 @@ eshareosx
 espanso
 etrecheck
 etssecurebrowser
-evercast
+eul
 evernote
 everweb
 exelbanstats
