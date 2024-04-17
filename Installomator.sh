@@ -337,7 +337,11 @@ if [[ $(/usr/bin/arch) == "arm64" ]]; then
     fi
 fi
 VERSION="10.6beta"
+<<<<<<< Updated upstream
 VERSIONDATE="2024-04-16"
+=======
+VERSIONDATE="2024-04-17"
+>>>>>>> Stashed changes
 
 # MARK: Functions
 
@@ -5911,7 +5915,13 @@ miniconda)
 	fi
     expectedTeamID="Z5788K4JT7"
     ;;
-miro)
+minisim)
+    name="Minisim"
+    type="zip"
+    downloadURL="$(downloadURLFromGit okwasniewski MiniSim)"
+    appNewVersion="$(versionFromGit okwasniewski MiniSim)"
+    expectedTeamID="Z3M9P6G4WY"
+    ;;miro)
     # credit: @matins
     name="Miro"
     type="dmg"

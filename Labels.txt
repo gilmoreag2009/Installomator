@@ -466,7 +466,7 @@ microsoftwordreset
 mightymike
 mindmanager
 miniconda
-miro
+minisim
 mist
 mist-cli
 mkuser
