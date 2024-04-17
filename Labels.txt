@@ -29,7 +29,7 @@ airtamepkg
 aldente
 alephone
 alfred
-alttab
+altserver
 amazonchime
 amazoncorretto11jdk
 amazoncorretto17jdk

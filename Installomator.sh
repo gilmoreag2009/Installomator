@@ -338,7 +338,11 @@ if [[ $(/usr/bin/arch) == "arm64" ]]; then
 fi
 VERSION="10.6beta"
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 VERSIONDATE="2024-04-16"
+=======
+VERSIONDATE="2024-04-17"
+>>>>>>> Stashed changes
 =======
 VERSIONDATE="2024-04-17"
 >>>>>>> Stashed changes
@@ -1814,7 +1818,13 @@ alfred)
     appName="Alfred 5.app"
     expectedTeamID="XZZXE9SED4"
     ;;
-alttab)
+altserver)
+    name="AltServer"
+    type="zip"
+    downloadURL="https://cdn.altstore.io/file/altstore/altserver.zip"
+    appNewVersion=""
+    expectedTeamID="6XVY5G3U44"
+    ;;alttab)
     name="AltTab"
     type="zip"
     downloadURL=$(downloadURLFromGit lwouis alt-tab-macos)
