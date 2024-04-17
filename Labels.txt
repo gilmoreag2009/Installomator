@@ -356,7 +356,7 @@ jetbrainsrubymine
 jetbrainstoolbox
 jetbrainswebstorm
 jitsimeet
-jre8
+joplin
 jumpdesktop
 jupyterlab
 kap
