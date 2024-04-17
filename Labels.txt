@@ -209,7 +209,7 @@ eclipsetemurin8
 egnyte
 egnytecore
 egnytewebedit
-element
+elasticvue
 elgatocamerahub
 elgatostreamdeck
 emacs
