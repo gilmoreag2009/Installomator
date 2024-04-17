@@ -29,7 +29,7 @@ airtamepkg
 aldente
 alephone
 alfred
-altserver
+alttab
 amazonchime
 amazoncorretto11jdk
 amazoncorretto17jdk
@@ -219,7 +219,7 @@ eshareosx
 espanso
 etrecheck
 etssecurebrowser
-eul
+evercast
 evernote
 everweb
 exelbanstats
@@ -356,7 +356,7 @@ jetbrainsrubymine
 jetbrainstoolbox
 jetbrainswebstorm
 jitsimeet
-joplin
+jre8
 jumpdesktop
 jupyterlab
 kap
@@ -466,7 +466,7 @@ microsoftwordreset
 mightymike
 mindmanager
 miniconda
-minisim
+miro
 mist
 mist-cli
 mkuser

@@ -337,15 +337,7 @@ if [[ $(/usr/bin/arch) == "arm64" ]]; then
     fi
 fi
 VERSION="10.6beta"
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-VERSIONDATE="2024-04-16"
-=======
 VERSIONDATE="2024-04-17"
->>>>>>> Stashed changes
-=======
-VERSIONDATE="2024-04-17"
->>>>>>> Stashed changes
 
 # MARK: Functions
 
@@ -1818,13 +1810,7 @@ alfred)
     appName="Alfred 5.app"
     expectedTeamID="XZZXE9SED4"
     ;;
-altserver)
-    name="AltServer"
-    type="zip"
-    downloadURL="https://cdn.altstore.io/file/altstore/altserver.zip"
-    appNewVersion=""
-    expectedTeamID="6XVY5G3U44"
-    ;;alttab)
+alttab)
     name="AltTab"
     type="zip"
     downloadURL=$(downloadURLFromGit lwouis alt-tab-macos)
@@ -3461,13 +3447,7 @@ etssecurebrowser)
     versionKey="CFBundleShortVersionString"
     expectedTeamID="WGC236CZU9"
     ;;
-eul)
-    name="eul"
-    type="zip"
-    downloadURL="$(downloadURLFromGit gao-sun eul)"
-    appNewVersion="$(versionFromGit gao-sun eul)"
-    expectedTeamID="M8G2RFZVFV"
-    ;;evercast)
+evercast)
     name="Evercast"
     type="pkg"
     downloadURL="https://s3.amazonaws.com/files.evercast.us/Evercast.pkg"
@@ -4750,13 +4730,7 @@ jitsimeet)
     appNewVersion=$(versionFromGit Jitsi jitsi-meet-electron)
     expectedTeamID="FC967L3QRG"
     ;;
-joplin)
-    name="Joplin"
-    type="dmg"
-    downloadURL="$(downloadURLFromGit laurent22 joplin)"
-    appNewVersion="$(versionFromGit laurent22 joplin)"
-    expectedTeamID="A9BXAFS6CT"
-    ;;jre8)
+jre8)
     name="Java Runtime Environment 8"
     type="pkgInDmg"
     versionKey="CFBundleVersion"
@@ -5925,13 +5899,7 @@ miniconda)
 	fi
     expectedTeamID="Z5788K4JT7"
     ;;
-minisim)
-    name="Minisim"
-    type="zip"
-    downloadURL="$(downloadURLFromGit okwasniewski MiniSim)"
-    appNewVersion="$(versionFromGit okwasniewski MiniSim)"
-    expectedTeamID="Z3M9P6G4WY"
-    ;;miro)
+miro)
     # credit: @matins
     name="Miro"
     type="dmg"
